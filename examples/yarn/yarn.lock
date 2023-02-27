@@ -470,10 +470,10 @@ postcss@^8.1.10, postcss@^8.4.18:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-qrcode-of-this-site3@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/qrcode-of-this-site3/-/qrcode-of-this-site3-1.0.0.tgz#86b27fb84450ead2206d5092fa61010430dad86b"
-  integrity sha512-SjGHYfEIARcYe/s/5rGYH/77z4TmPvYZwF497GQ/4hCa85DF7WXgAO2MmK2gZMO3hq6kUlRdB10ZMSlcqmiFiA==
+qrcode-of-this-site3@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/qrcode-of-this-site3/-/qrcode-of-this-site3-1.0.1.tgz#5d769cc8b750f78f9fce20efc9365a040e9f20cd"
+  integrity sha512-i2C5dM02V0a2X89Aa62gT2l5rHgE0ciLk2DcSCG3TVrrPkbgReOAVu3JhtX4w6o+KxjCLTAnpppgILKKcY2suQ==
   dependencies:
     "@mdi/font" "7.0.96"
     qrcode "^1.5.1"

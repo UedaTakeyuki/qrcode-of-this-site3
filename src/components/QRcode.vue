@@ -1,10 +1,10 @@
 <template>
-  <v-layout>
-      <canvas id="qr" class="mx-auto"></canvas>
-  </v-layout>
-  <v-layout>
+  <div class="d-flex flex-row justify-center">
+    <canvas id="qr" class="mx-auto"></canvas>
+  </div>
+  <div class="d-flex flex-row justify-center">
     <p class="mx-auto text-white mt-2">QR code for this App</p>
-  </v-layout>
+  </div>
 </template>
 
 <script>

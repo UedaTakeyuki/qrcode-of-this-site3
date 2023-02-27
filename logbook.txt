@@ -1,1 +1,2 @@
 2023.02.26 forked from qrcode-of-this-site
+2023.02.27 centerlize
