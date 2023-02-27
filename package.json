@@ -1,6 +1,18 @@
 {
   "name": "qrcode-of-this-site3",
-  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/qrcode-of-this-site.umd.js",
+  "module": "./dist/qrcode-of-this-site.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/qrcode-of-this-site.es.js",
+      "require": "./dist/qrcode-of-this-site.umd.js"
+    }
+  },
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,7 +28,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
-    "vite": "^3.1.9",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "vite": "^4.1.4",
     "vite-plugin-vuetify": "^1.0.0-alpha.12"
   }
 }
