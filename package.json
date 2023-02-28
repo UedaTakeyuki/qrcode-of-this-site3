@@ -11,7 +11,7 @@
       "require": "./dist/qrcode-of-this-site3.umd.js"
     }
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "scripts": {
     "dev": "vite",
