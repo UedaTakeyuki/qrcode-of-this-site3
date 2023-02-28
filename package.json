@@ -3,15 +3,15 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/qrcode-of-this-site.umd.js",
-  "module": "./dist/qrcode-of-this-site.es.js",
+  "main": "./dist/qrcode-of-this-site3.umd.js",
+  "module": "./dist/qrcode-of-this-site3.es.js",
   "exports": {
     ".": {
-      "import": "./dist/qrcode-of-this-site.es.js",
-      "require": "./dist/qrcode-of-this-site.umd.js"
+      "import": "./dist/qrcode-of-this-site3.es.js",
+      "require": "./dist/qrcode-of-this-site3.umd.js"
     }
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "scripts": {
     "dev": "vite",
