@@ -11,7 +11,7 @@ module.exports = {
       config.externals({
         vue: 'Vue',
         vuetify: 'Vuetify',
-        'qrcode-of-this-site3': 'qrcode-of-this-site3',
+        'qrcode-of-this-site3': 'QRcode',
   //      'vuetify/lib': 'Vuetify',
       })
     }
