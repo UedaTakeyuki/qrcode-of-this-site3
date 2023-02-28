@@ -19,8 +19,8 @@ export default defineConfig(({ mode }) => {
     build: {
       lib: {
         entry: '/src/build-entry.js',
-        name: 'qrcode-of-this-site',
-        fileName: (format) => `qrcode-of-this-site.${format}.js`,
+        name: 'QRcode',
+        fileName: (format) => `QRcode.${format}.js`,
       },
       rollupOptions: {
         external: ['vue', 'vuetify'],
@@ -71,5 +71,10 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 3000,
     },
+/*
+    optimizeDeps: {
+      include: ["qrcode"],
+    },
+*/
   }
 })

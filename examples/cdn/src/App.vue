@@ -9,5 +9,6 @@
 </template>
 
 <script setup>
-  import {QRcode} from 'qrcode-of-this-site3'
+  const QRcode = window.QRcode.QRcode
+  //import QRcode from 'qrcode-of-this-site3'
 </script>
